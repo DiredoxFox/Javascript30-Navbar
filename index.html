@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Navbar 30</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/Logo.svg" alt="">
+            <ul>
+                <li><a aria-label="button" class="hide-m" id="product" href="#">Products</a></li>
+                <li><a aria-label="button" class="hide-m" href="#">Challenges</a></li>
+                <li><a aria-label="button" class="hide-m" href="#">Resources</a></li>
+                <li><a aria-label="button" class="hide-m" href="#">Other Links</a></li>
+            </ul>
+            <div class="nav-btn-group">
+                <a aria-label="button" class="hide-m" href="#">Sign In</a>
+                <a aria-label="button" class="btn-1 hide-m" href="#">Try for free</a>
+            </div>
+            <a aria-label="button" id="menu" class="menu reveal-m" href="#"><img src="assets/Menu.svg" alt="Menu"></a>
+            <div class="pop-up-box">
+                <div class="pop-title mb-sm-2">
+                    <p>PRODUCTS</p>
+                    <a aria-label="button" id="exit" href="#"><img src="assets/Close.svg" alt=""></a>
+                </div>
+                <ul>
+                    <li>
+                        <img src="assets/Spense_Icon.svg" alt="">
+                        <div class="nav-content">
+                            <a aria-label="button" href="#">Spense</a>
+                            <p>Spense is a landing page for writers. Great for practicing absolute positioning and flex layouts.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/Fiber_Icon.svg" alt="">
+                        <div class="nav-content">
+                            <a aria-label="button" href="#">Fiber Landing Page</a>
+                            <p>An online portfolio generator. Great to practice flex/grid layouts, and absolute positioning.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/Gradie_Icon.svg" alt="">
+                        <div class="nav-content">
+                            <a aria-label="button" href="#">Gradle Sign Up Page</a>
+                            <p>Gradle is a simple sign up, great to practicing centering layouts.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="landing-page">
+            <div class="text-section">
+                <h1>Ondeck is your remote <span>conference calling tool</span></h1>
+                <p class="mx-1 mb-2">Ondeck is a service that allows you to create beautiful, online, and encrypted video calls for you and your remote team.</p>
+                <a class="btn-1" href="#">Try for free</a>
+                <div class="rating-section">
+                    <p class="mx-2 d-inline">5.0 Rating based on reviews from:</p>
+                    <div class="rating-icons">
+                        <img src="assets/Capterra Logo.svg" alt="">
+                        <img src="assets/AlternativeTo Logo.svg" alt="">
+                        <img src="assets/Shopify Logo small.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="img-section hide-m">
+                <img src="assets/Hero Image.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="text-center mb-2">Trusted by 3+ million people at companies like</p>
+        <div class="company-logo">
+            <img src="assets/Netflix Logo.svg" alt="">
+            <img src="assets/Shopify Logo.svg" alt="">
+            <img src="assets/Spotify Logo.svg" alt="">
+            <img src="assets/Walmart Logo.svg" alt="">
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
